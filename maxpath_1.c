@@ -60,7 +60,7 @@ void addLink(struct LinkList **head, struct Link link){
     *head = newLink;
 }
 
-// リンクを重みの大きい順にソート
+// リンクを重みの大きい順にソートする
 void sortLinks(struct LinkList **head){
     struct LinkList *sortedLinks = NULL;
     struct LinkList *current = *head;
