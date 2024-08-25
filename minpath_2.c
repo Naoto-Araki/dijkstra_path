@@ -26,7 +26,7 @@ int success; /* 確立できた通信回数 */
 int sum_success; /* 確立できた通信回数の合計 */
 int sim_time; /* 評価の回数をカウント */
 
-//構造体を定義する
+//構造体を定義
 typedef struct {
     int src; // 送信元ノード
     int dest; // 受信先ノード
