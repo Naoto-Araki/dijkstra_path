@@ -87,7 +87,7 @@ int main(){
         if (src==dest) printf("送受信ノードが一致している\n");
     }
 
-    /* dijkstraのアルゴリズム */
+    /* dijkstraアルゴリズム */
     /*初期化*/
     for(i=0; i<NODE_NUM; i++){ /* 何も確定していない状態にする */
         dist[i] = MAX;
